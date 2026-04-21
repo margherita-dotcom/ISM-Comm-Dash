@@ -1,0 +1,55 @@
+name: Refresh Dashboard Data
+
+on:
+  schedule:
+    - cron: '0 7 * * 1-5'   # 07:00 UTC Mon–Fri (09:00 Amsterdam)
+  workflow_dispatch:          # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install \
+            slack-sdk \
+            google-auth \
+            google-api-python-client \
+            snowflake-connector-python \
+            python-dateutil
+
+      - name: Build dashboard JSON
+        env:
+          SLACK_BOT_TOKEN:            ${{ secrets.SLACK_BOT_TOKEN }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DOMAIN:              ${{ secrets.GOOGLE_DOMAIN }}
+          CAL_EMAIL_VALENTINA:        ${{ secrets.CAL_EMAIL_VALENTINA }}
+          CAL_EMAIL_BASSEL:           ${{ secrets.CAL_EMAIL_BASSEL }}
+          CAL_EMAIL_JESSEY:           ${{ secrets.CAL_EMAIL_JESSEY }}
+          SNOWFLAKE_ACCOUNT:          ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER:             ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PASSWORD:         ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:         ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:           ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE:        ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:             ${{ secrets.SNOWFLAKE_ROLE }}
+        run: python scripts/build_dashboard_json.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/dashboard.json
+          git diff --staged --quiet || git commit -m "chore: refresh dashboard data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
