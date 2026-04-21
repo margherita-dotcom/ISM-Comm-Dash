@@ -53,7 +53,7 @@ export default function StandupSection({ data, agentFilter }) {
           <span className="section-title">Stand-up Action Items</span>
           {lastMeeting && (
             <span style={{ fontSize: 12, color: 'var(--text-muted)', marginLeft: 10, fontWeight: 500 }}>
-              From Gemini Notes · {standup.meeting_title}
+              From Gemini Notes · Day start ISM
             </span>
           )}
         </div>

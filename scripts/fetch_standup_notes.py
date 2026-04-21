@@ -28,7 +28,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/documents.readonly",
 ]
 
-TITLE_PATTERN = os.environ.get("STANDUP_DOC_TITLE_PATTERN", "stand-up")
+TITLE_PATTERN = os.environ.get("STANDUP_DOC_TITLE_PATTERN", "Day start ISM")
 FOLDER_ID     = os.environ.get("STANDUP_DOC_FOLDER_ID", "")
 AGENTS        = ["Valentina", "Bassel", "Jessey", "Wies"]
 
