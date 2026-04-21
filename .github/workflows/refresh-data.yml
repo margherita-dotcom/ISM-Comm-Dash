@@ -27,16 +27,16 @@ jobs:
             google-auth \
             google-api-python-client \
             snowflake-connector-python \
-            python-dateutil
+            python-dateutil \
+            google-auth-httplib2
 
       - name: Build dashboard JSON
         env:
           SLACK_BOT_TOKEN:            ${{ secrets.SLACK_BOT_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_DOMAIN:              ${{ secrets.GOOGLE_DOMAIN }}
-          CAL_EMAIL_VALENTINA:        ${{ secrets.CAL_EMAIL_VALENTINA }}
-          CAL_EMAIL_BASSEL:           ${{ secrets.CAL_EMAIL_BASSEL }}
-          CAL_EMAIL_JESSEY:           ${{ secrets.CAL_EMAIL_JESSEY }}
+          STANDUP_DOC_FOLDER_ID:      ${{ secrets.STANDUP_DOC_FOLDER_ID }}
+          STANDUP_DOC_TITLE_PATTERN:  ${{ secrets.STANDUP_DOC_TITLE_PATTERN }}
           SNOWFLAKE_ACCOUNT:          ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER:             ${{ secrets.SNOWFLAKE_USER }}
           SNOWFLAKE_PASSWORD:         ${{ secrets.SNOWFLAKE_PASSWORD }}

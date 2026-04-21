@@ -237,5 +237,24 @@
       { "week": "W3", "Valentina": 13.5, "Bassel": 14.0, "Jessey": 11.5, "Wies": 12.0 },
       { "week": "W4", "Valentina": 15.0, "Bassel": 13.0, "Jessey": 10.5, "Wies": 11.5 }
     ]
+  },
+  "standup": {
+    "last_meeting": "2026-04-21T09:00:00Z",
+    "meeting_title": "ISM Weekly Stand-up — W16",
+    "action_items": [
+      { "id": 1,  "item": "Send updated quote to Van der Berg",          "owner": "Bassel",    "status": "open",        "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
+      { "id": 2,  "item": "Schedule post-install check-in with Jansen",  "owner": "Jessey",    "status": "open",        "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
+      { "id": 3,  "item": "Follow up on Pietersen quote (no reply 3d)",  "owner": "Valentina", "status": "in_progress", "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
+      { "id": 4,  "item": "Close warranty query for Meijer",             "owner": "Bassel",    "status": "open",        "created": "2026-04-21", "due": "2026-04-23", "week": "W16" },
+      { "id": 5,  "item": "Confirm De Vries contract signature",         "owner": "Wies",      "status": "open",        "created": "2026-04-21", "due": "2026-04-23", "week": "W16" },
+      { "id": 6,  "item": "Send satisfaction survey to Visser",          "owner": "Valentina", "status": "in_progress", "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
+      { "id": 7,  "item": "Prepare Smit upsell proposal",               "owner": "Jessey",    "status": "open",        "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
+      { "id": 8,  "item": "Renew quote for Bos (expires Friday)",        "owner": "Wies",      "status": "open",        "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
+      { "id": 9,  "item": "Check Mulder installation scheduled date",    "owner": "Valentina", "status": "done",        "created": "2026-04-14", "due": "2026-04-18", "week": "W15" },
+      { "id": 10, "item": "Update CRM notes for Centrum deal",           "owner": "Jessey",    "status": "done",        "created": "2026-04-14", "due": "2026-04-18", "week": "W15" },
+      { "id": 11, "item": "Escalate Westbank stale deal to manager",     "owner": "Bassel",    "status": "in_progress", "created": "2026-04-14", "due": "2026-04-21", "week": "W15" },
+      { "id": 12, "item": "Review Noord installation report",            "owner": "Valentina", "status": "open",        "created": "2026-04-14", "due": "2026-04-21", "week": "W15" },
+      { "id": 13, "item": "Coordinate with logistics on Oost scheduling","owner": "Wies",      "status": "done",        "created": "2026-04-14", "due": "2026-04-17", "week": "W15" }
+    ]
   }
 }

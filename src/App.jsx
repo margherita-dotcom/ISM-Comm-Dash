@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Header from './components/Header.jsx'
 import HubspotSection from './components/HubspotSection.jsx'
 import SlackSection from './components/SlackSection.jsx'
-import CalendarSection from './components/CalendarSection.jsx'
+import StandupSection from './components/StandupSection.jsx'
 
 export default function App() {
   const [data, setData] = useState(null)
@@ -45,7 +45,7 @@ export default function App() {
       <div className="section-divider" />
       <SlackSection    data={data} agentFilter={agentFilter} />
       <div className="section-divider" />
-      <CalendarSection data={data} agentFilter={agentFilter} />
+      <StandupSection  data={data} agentFilter={agentFilter} />
     </div>
   )
 }
