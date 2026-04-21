@@ -1,70 +1,184 @@
 {
   "meta": {
-    "updated_at": "2026-04-21T08:00:00Z",
-    "week_start": "2026-04-14",
-    "week_end": "2026-04-20"
+    "updated_at": "2026-04-21T08:00:00Z"
   },
-  "agents": ["Valentina", "Bassel", "Jessey"],
+  "agents": ["Valentina", "Bassel", "Jessey", "Wies"],
   "slack": {
     "overview": {
-      "total_messages": 847,
-      "avg_response_time_min": 18,
-      "active_channels": 12,
-      "threads_started": 94
+      "total_messages": 1094,
+      "avg_response_time_min": 17,
+      "open_threads": 14,
+      "follow_ups_needed": 8,
+      "total_time_spent_hours": 19.5
     },
     "by_agent": [
       {
         "name": "Valentina",
         "messages_sent": 312,
         "avg_response_time_min": 14,
-        "threads_started": 38,
-        "after_hours_pct": 8,
-        "reactions_given": 54
+        "open_threads": 4,
+        "follow_ups_needed": 2,
+        "time_spent_hours": 5.5,
+        "after_hours_pct": 8
       },
       {
         "name": "Bassel",
         "messages_sent": 287,
         "avg_response_time_min": 22,
-        "threads_started": 31,
-        "after_hours_pct": 12,
-        "reactions_given": 41
+        "open_threads": 5,
+        "follow_ups_needed": 3,
+        "time_spent_hours": 4.8,
+        "after_hours_pct": 12
       },
       {
         "name": "Jessey",
         "messages_sent": 248,
         "avg_response_time_min": 19,
-        "threads_started": 25,
-        "after_hours_pct": 5,
-        "reactions_given": 37
+        "open_threads": 3,
+        "follow_ups_needed": 2,
+        "time_spent_hours": 4.2,
+        "after_hours_pct": 5
+      },
+      {
+        "name": "Wies",
+        "messages_sent": 247,
+        "avg_response_time_min": 13,
+        "open_threads": 2,
+        "follow_ups_needed": 1,
+        "time_spent_hours": 5.0,
+        "after_hours_pct": 4
       }
     ],
     "channel_breakdown": [
-      { "channel": "#ism-team", "messages": 241 },
-      { "channel": "#customer-success", "messages": 187 },
-      { "channel": "#installations", "messages": 163 },
-      { "channel": "#general", "messages": 142 },
-      { "channel": "#other", "messages": 114 }
+      { "channel": "#ism-team", "messages": 311 },
+      { "channel": "#customer-success", "messages": 241 },
+      { "channel": "#installations", "messages": 211 },
+      { "channel": "#general", "messages": 184 },
+      { "channel": "#other", "messages": 147 }
     ],
     "daily_activity": [
-      { "day": "Mon", "Valentina": 68, "Bassel": 61, "Jessey": 54 },
-      { "day": "Tue", "Valentina": 72, "Bassel": 65, "Jessey": 58 },
-      { "day": "Wed", "Valentina": 55, "Bassel": 48, "Jessey": 42 },
-      { "day": "Thu", "Valentina": 63, "Bassel": 57, "Jessey": 51 },
-      { "day": "Fri", "Valentina": 54, "Bassel": 56, "Jessey": 43 }
+      { "day": "Mon", "Valentina": 68, "Bassel": 61, "Jessey": 54, "Wies": 58 },
+      { "day": "Tue", "Valentina": 72, "Bassel": 65, "Jessey": 58, "Wies": 62 },
+      { "day": "Wed", "Valentina": 55, "Bassel": 48, "Jessey": 42, "Wies": 51 },
+      { "day": "Thu", "Valentina": 63, "Bassel": 57, "Jessey": 51, "Wies": 48 },
+      { "day": "Fri", "Valentina": 54, "Bassel": 56, "Jessey": 43, "Wies": 28 }
     ],
     "response_time_trend": [
-      { "week": "W1", "Valentina": 22, "Bassel": 30, "Jessey": 25 },
-      { "week": "W2", "Valentina": 18, "Bassel": 27, "Jessey": 22 },
-      { "week": "W3", "Valentina": 16, "Bassel": 24, "Jessey": 20 },
-      { "week": "W4", "Valentina": 14, "Bassel": 22, "Jessey": 19 }
+      { "week": "W1", "Valentina": 22, "Bassel": 30, "Jessey": 25, "Wies": 18 },
+      { "week": "W2", "Valentina": 18, "Bassel": 27, "Jessey": 22, "Wies": 15 },
+      { "week": "W3", "Valentina": 16, "Bassel": 24, "Jessey": 20, "Wies": 14 },
+      { "week": "W4", "Valentina": 14, "Bassel": 22, "Jessey": 19, "Wies": 13 }
+    ]
+  },
+  "hubspot": {
+    "overview": {
+      "emails_sent": 231,
+      "avg_response_time_hrs": 3.2,
+      "answer_rate_pct": 74,
+      "avg_latency_hrs": 3.2,
+      "active_deals_with_activity": 38,
+      "open_points": 21,
+      "customers_to_follow_up": 11,
+      "stale_deals": 6
+    },
+    "by_agent": [
+      {
+        "name": "Valentina",
+        "emails_sent": 72,
+        "emails_received": 58,
+        "avg_response_time_hrs": 2.8,
+        "answer_rate_pct": 78,
+        "avg_latency_hrs": 2.8,
+        "activity_count": 102,
+        "deals_touched": 13,
+        "calls_logged": 9,
+        "tasks_completed": 21,
+        "open_points": 6,
+        "customers_to_follow_up": 3
+      },
+      {
+        "name": "Bassel",
+        "emails_sent": 61,
+        "emails_received": 49,
+        "avg_response_time_hrs": 3.5,
+        "answer_rate_pct": 71,
+        "avg_latency_hrs": 3.5,
+        "activity_count": 85,
+        "deals_touched": 11,
+        "calls_logged": 7,
+        "tasks_completed": 17,
+        "open_points": 8,
+        "customers_to_follow_up": 4
+      },
+      {
+        "name": "Jessey",
+        "emails_sent": 50,
+        "emails_received": 41,
+        "avg_response_time_hrs": 3.4,
+        "answer_rate_pct": 73,
+        "avg_latency_hrs": 3.4,
+        "activity_count": 70,
+        "deals_touched": 9,
+        "calls_logged": 6,
+        "tasks_completed": 14,
+        "open_points": 5,
+        "customers_to_follow_up": 2
+      },
+      {
+        "name": "Wies",
+        "emails_sent": 48,
+        "emails_received": 39,
+        "avg_response_time_hrs": 2.6,
+        "answer_rate_pct": 82,
+        "avg_latency_hrs": 2.6,
+        "activity_count": 74,
+        "deals_touched": 10,
+        "calls_logged": 8,
+        "tasks_completed": 16,
+        "open_points": 2,
+        "customers_to_follow_up": 2
+      }
+    ],
+    "email_volume_trend": [
+      { "week": "W1", "Valentina": 65, "Bassel": 55, "Jessey": 44, "Wies": 42 },
+      { "week": "W2", "Valentina": 70, "Bassel": 58, "Jessey": 48, "Wies": 45 },
+      { "week": "W3", "Valentina": 68, "Bassel": 60, "Jessey": 47, "Wies": 46 },
+      { "week": "W4", "Valentina": 72, "Bassel": 61, "Jessey": 50, "Wies": 48 }
+    ],
+    "deal_activity_breakdown": [
+      { "name": "Valentina", "calls": 9, "emails": 72, "tasks": 21 },
+      { "name": "Bassel",    "calls": 7, "emails": 61, "tasks": 17 },
+      { "name": "Jessey",    "calls": 6, "emails": 50, "tasks": 14 },
+      { "name": "Wies",      "calls": 8, "emails": 48, "tasks": 16 }
+    ],
+    "customers_to_follow_up": [
+      { "customer": "Van der Berg - Amsterdam Noord",  "owner": "Bassel",    "due_days": -2, "reason": "Installation follow-up" },
+      { "customer": "Pietersen - Utrecht",             "owner": "Valentina", "due_days": 0,  "reason": "Quote sent, no reply" },
+      { "customer": "Jansen - Rotterdam",              "owner": "Jessey",    "due_days": 1,  "reason": "Post-install check-in" },
+      { "customer": "De Vries - Den Haag",             "owner": "Wies",      "due_days": 1,  "reason": "Awaiting contract sign" },
+      { "customer": "Bakker - Eindhoven",              "owner": "Bassel",    "due_days": 2,  "reason": "Technical question open" },
+      { "customer": "Visser - Groningen",              "owner": "Valentina", "due_days": 3,  "reason": "Satisfaction survey" },
+      { "customer": "Smit - Breda",                   "owner": "Jessey",    "due_days": 3,  "reason": "Upsell opportunity" },
+      { "customer": "Meijer - Nijmegen",               "owner": "Bassel",    "due_days": 4,  "reason": "Warranty query open" },
+      { "customer": "Bos - Tilburg",                  "owner": "Wies",      "due_days": 5,  "reason": "Quote renewal" },
+      { "customer": "Mulder - Haarlem",               "owner": "Valentina", "due_days": 6,  "reason": "Installation scheduled" },
+      { "customer": "De Groot - Leiden",              "owner": "Jessey",    "due_days": 7,  "reason": "Post-install check-in" }
+    ],
+    "stale_deals": [
+      { "deal": "Quatt Install - Westbank",    "owner": "Bassel",    "last_contact_days": 14 },
+      { "deal": "Quatt Install - Noord",       "owner": "Valentina", "last_contact_days": 11 },
+      { "deal": "Quatt Install - Centrum",     "owner": "Jessey",    "last_contact_days": 9  },
+      { "deal": "Quatt Install - Zuid",        "owner": "Bassel",    "last_contact_days": 8  },
+      { "deal": "Quatt Install - Oost",        "owner": "Wies",      "last_contact_days": 7  },
+      { "deal": "Quatt Install - Nieuw-West",  "owner": "Valentina", "last_contact_days": 7  }
     ]
   },
   "calendar": {
     "overview": {
-      "total_meetings": 47,
-      "total_meeting_hours": 38.5,
-      "avg_meetings_per_person": 15.7,
-      "async_ratio_pct": 61
+      "total_meetings": 61,
+      "total_meeting_hours": 50.0,
+      "avg_meetings_per_person": 15.3,
+      "async_ratio_pct": 69
     },
     "by_agent": [
       {
@@ -93,82 +207,35 @@
         "internal_meetings": 5,
         "avg_meeting_duration_min": 48,
         "back_to_back_pct": 15
+      },
+      {
+        "name": "Wies",
+        "meetings": 14,
+        "meeting_hours": 11.5,
+        "external_meetings": 9,
+        "internal_meetings": 5,
+        "avg_meeting_duration_min": 49,
+        "back_to_back_pct": 14
       }
     ],
     "meeting_type_distribution": [
-      { "type": "Customer check-in", "count": 19 },
-      { "type": "Internal sync", "count": 14 },
-      { "type": "Installation review", "count": 9 },
-      { "type": "Training", "count": 5 }
+      { "type": "Customer check-in",   "count": 24 },
+      { "type": "Internal sync",       "count": 18 },
+      { "type": "Installation review", "count": 12 },
+      { "type": "Training",            "count": 7  }
     ],
     "daily_meeting_hours": [
-      { "day": "Mon", "Valentina": 3.5, "Bassel": 2.5, "Jessey": 2.0 },
-      { "day": "Tue", "Valentina": 2.5, "Bassel": 3.0, "Jessey": 2.5 },
-      { "day": "Wed", "Valentina": 4.0, "Bassel": 2.0, "Jessey": 2.0 },
-      { "day": "Thu", "Valentina": 3.0, "Bassel": 3.5, "Jessey": 2.5 },
-      { "day": "Fri", "Valentina": 2.0, "Bassel": 2.0, "Jessey": 1.5 }
+      { "day": "Mon", "Valentina": 3.5, "Bassel": 2.5, "Jessey": 2.0, "Wies": 2.5 },
+      { "day": "Tue", "Valentina": 2.5, "Bassel": 3.0, "Jessey": 2.5, "Wies": 2.0 },
+      { "day": "Wed", "Valentina": 4.0, "Bassel": 2.0, "Jessey": 2.0, "Wies": 3.0 },
+      { "day": "Thu", "Valentina": 3.0, "Bassel": 3.5, "Jessey": 2.5, "Wies": 2.5 },
+      { "day": "Fri", "Valentina": 2.0, "Bassel": 2.0, "Jessey": 1.5, "Wies": 1.5 }
     ],
     "load_trend": [
-      { "week": "W1", "Valentina": 14.0, "Bassel": 11.5, "Jessey": 9.5 },
-      { "week": "W2", "Valentina": 16.5, "Bassel": 12.0, "Jessey": 10.0 },
-      { "week": "W3", "Valentina": 13.5, "Bassel": 14.0, "Jessey": 11.5 },
-      { "week": "W4", "Valentina": 15.0, "Bassel": 13.0, "Jessey": 10.5 }
-    ]
-  },
-  "hubspot": {
-    "overview": {
-      "emails_sent": 183,
-      "avg_response_time_hrs": 3.2,
-      "active_deals_with_activity": 31,
-      "stale_deals": 6
-    },
-    "by_agent": [
-      {
-        "name": "Valentina",
-        "emails_sent": 72,
-        "emails_received": 58,
-        "avg_response_time_hrs": 2.8,
-        "deals_touched": 13,
-        "calls_logged": 9,
-        "tasks_completed": 21
-      },
-      {
-        "name": "Bassel",
-        "emails_sent": 61,
-        "emails_received": 49,
-        "avg_response_time_hrs": 3.5,
-        "deals_touched": 11,
-        "calls_logged": 7,
-        "tasks_completed": 17
-      },
-      {
-        "name": "Jessey",
-        "emails_sent": 50,
-        "emails_received": 41,
-        "avg_response_time_hrs": 3.4,
-        "deals_touched": 9,
-        "calls_logged": 6,
-        "tasks_completed": 14
-      }
-    ],
-    "email_volume_trend": [
-      { "week": "W1", "Valentina": 65, "Bassel": 55, "Jessey": 44 },
-      { "week": "W2", "Valentina": 70, "Bassel": 58, "Jessey": 48 },
-      { "week": "W3", "Valentina": 68, "Bassel": 60, "Jessey": 47 },
-      { "week": "W4", "Valentina": 72, "Bassel": 61, "Jessey": 50 }
-    ],
-    "deal_activity_breakdown": [
-      { "name": "Valentina", "calls": 9, "emails": 72, "tasks": 21 },
-      { "name": "Bassel", "calls": 7, "emails": 61, "tasks": 17 },
-      { "name": "Jessey", "calls": 6, "emails": 50, "tasks": 14 }
-    ],
-    "stale_deals": [
-      { "deal": "Quatt Install - Westbank", "owner": "Bassel", "last_contact_days": 14 },
-      { "deal": "Quatt Install - Noord", "owner": "Valentina", "last_contact_days": 11 },
-      { "deal": "Quatt Install - Centrum", "owner": "Jessey", "last_contact_days": 9 },
-      { "deal": "Quatt Install - Zuid", "owner": "Bassel", "last_contact_days": 8 },
-      { "deal": "Quatt Install - Oost", "owner": "Jessey", "last_contact_days": 7 },
-      { "deal": "Quatt Install - Nieuw-West", "owner": "Valentina", "last_contact_days": 7 }
+      { "week": "W1", "Valentina": 14.0, "Bassel": 11.5, "Jessey": 9.5,  "Wies": 10.0 },
+      { "week": "W2", "Valentina": 16.5, "Bassel": 12.0, "Jessey": 10.0, "Wies": 11.5 },
+      { "week": "W3", "Valentina": 13.5, "Bassel": 14.0, "Jessey": 11.5, "Wies": 12.0 },
+      { "week": "W4", "Valentina": 15.0, "Bassel": 13.0, "Jessey": 10.5, "Wies": 11.5 }
     ]
   }
 }

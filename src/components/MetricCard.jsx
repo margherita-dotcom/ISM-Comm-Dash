@@ -1,18 +1,18 @@
 import React from 'react'
 
-export default function MetricCard({ label, value, sub, delta, deltaDir, accent }) {
-  const deltaClass = deltaDir === 'up' ? 'delta-up' : deltaDir === 'down' ? 'delta-down' : 'delta-neutral'
-  const deltaPrefix = deltaDir === 'up' ? '↑' : deltaDir === 'down' ? '↓' : ''
+export default function MetricCard({ label, value, sub, delta, deltaType, accent }) {
+  const deltaClass = deltaType === 'good' ? 'delta-good'
+    : deltaType === 'warn' ? 'delta-warn'
+    : deltaType === 'bad' ? 'delta-bad'
+    : 'delta-neutral'
 
   return (
-    <div className="card" style={{ borderTop: accent ? `3px solid ${accent}` : undefined }}>
-      <div className="metric-label" style={{ marginBottom: 8 }}>{label}</div>
+    <div className="card" style={{ borderTop: `2px solid ${accent || 'var(--border)'}` }}>
+      <div className="metric-label">{label}</div>
       <div className="metric-value">{value}</div>
-      {sub && <div className="metric-label" style={{ marginTop: 4 }}>{sub}</div>}
+      {sub && <div className="metric-sub">{sub}</div>}
       {delta && (
-        <div className={`metric-delta ${deltaClass}`} style={{ marginTop: 8 }}>
-          {deltaPrefix} {delta}
-        </div>
+        <div className={`metric-delta ${deltaClass}`}>{delta}</div>
       )}
     </div>
   )
