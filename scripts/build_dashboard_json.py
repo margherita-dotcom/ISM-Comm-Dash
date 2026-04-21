@@ -14,7 +14,6 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from fetch_slack import main as fetch_slack
 from fetch_hubspot_snowflake import main as fetch_hubspot
-from fetch_standup_notes import main as fetch_standup
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "public", "data", "dashboard.json")
 AGENTS = ["Valentina", "Bassel", "Jessey", "Wies"]
@@ -46,9 +45,6 @@ def main():
     print("\n=== Fetching HubSpot data from Snowflake ===")
     hs_data = fetch_hubspot()
 
-    print("\n=== Fetching stand-up notes from Google Drive ===")
-    standup_data = fetch_standup()
-
     existing = load_existing()
 
     slack_data["response_time_trend"] = append_trend(
@@ -67,7 +63,6 @@ def main():
         "agents":  AGENTS,
         "slack":   slack_data,
         "hubspot": hs_data,
-        "standup": standup_data,
     }
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)

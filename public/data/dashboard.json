@@ -2,7 +2,12 @@
   "meta": {
     "updated_at": "2026-04-21T08:00:00Z"
   },
-  "agents": ["Valentina", "Bassel", "Jessey", "Wies"],
+  "agents": [
+    "Valentina",
+    "Bassel",
+    "Jessey",
+    "Wies"
+  ],
   "slack": {
     "overview": {
       "total_messages": 1094,
@@ -50,24 +55,93 @@
       }
     ],
     "channel_breakdown": [
-      { "channel": "#ism-team", "messages": 311 },
-      { "channel": "#customer-success", "messages": 241 },
-      { "channel": "#installations", "messages": 211 },
-      { "channel": "#general", "messages": 184 },
-      { "channel": "#other", "messages": 147 }
+      {
+        "channel": "#ism-team",
+        "messages": 311
+      },
+      {
+        "channel": "#customer-success",
+        "messages": 241
+      },
+      {
+        "channel": "#installations",
+        "messages": 211
+      },
+      {
+        "channel": "#general",
+        "messages": 184
+      },
+      {
+        "channel": "#other",
+        "messages": 147
+      }
     ],
     "daily_activity": [
-      { "day": "Mon", "Valentina": 68, "Bassel": 61, "Jessey": 54, "Wies": 58 },
-      { "day": "Tue", "Valentina": 72, "Bassel": 65, "Jessey": 58, "Wies": 62 },
-      { "day": "Wed", "Valentina": 55, "Bassel": 48, "Jessey": 42, "Wies": 51 },
-      { "day": "Thu", "Valentina": 63, "Bassel": 57, "Jessey": 51, "Wies": 48 },
-      { "day": "Fri", "Valentina": 54, "Bassel": 56, "Jessey": 43, "Wies": 28 }
+      {
+        "day": "Mon",
+        "Valentina": 68,
+        "Bassel": 61,
+        "Jessey": 54,
+        "Wies": 58
+      },
+      {
+        "day": "Tue",
+        "Valentina": 72,
+        "Bassel": 65,
+        "Jessey": 58,
+        "Wies": 62
+      },
+      {
+        "day": "Wed",
+        "Valentina": 55,
+        "Bassel": 48,
+        "Jessey": 42,
+        "Wies": 51
+      },
+      {
+        "day": "Thu",
+        "Valentina": 63,
+        "Bassel": 57,
+        "Jessey": 51,
+        "Wies": 48
+      },
+      {
+        "day": "Fri",
+        "Valentina": 54,
+        "Bassel": 56,
+        "Jessey": 43,
+        "Wies": 28
+      }
     ],
     "response_time_trend": [
-      { "week": "W1", "Valentina": 22, "Bassel": 30, "Jessey": 25, "Wies": 18 },
-      { "week": "W2", "Valentina": 18, "Bassel": 27, "Jessey": 22, "Wies": 15 },
-      { "week": "W3", "Valentina": 16, "Bassel": 24, "Jessey": 20, "Wies": 14 },
-      { "week": "W4", "Valentina": 14, "Bassel": 22, "Jessey": 19, "Wies": 13 }
+      {
+        "week": "W1",
+        "Valentina": 22,
+        "Bassel": 30,
+        "Jessey": 25,
+        "Wies": 18
+      },
+      {
+        "week": "W2",
+        "Valentina": 18,
+        "Bassel": 27,
+        "Jessey": 22,
+        "Wies": 15
+      },
+      {
+        "week": "W3",
+        "Valentina": 16,
+        "Bassel": 24,
+        "Jessey": 20,
+        "Wies": 14
+      },
+      {
+        "week": "W4",
+        "Valentina": 14,
+        "Bassel": 22,
+        "Jessey": 19,
+        "Wies": 13
+      }
     ]
   },
   "hubspot": {
@@ -140,121 +214,160 @@
       }
     ],
     "email_volume_trend": [
-      { "week": "W1", "Valentina": 65, "Bassel": 55, "Jessey": 44, "Wies": 42 },
-      { "week": "W2", "Valentina": 70, "Bassel": 58, "Jessey": 48, "Wies": 45 },
-      { "week": "W3", "Valentina": 68, "Bassel": 60, "Jessey": 47, "Wies": 46 },
-      { "week": "W4", "Valentina": 72, "Bassel": 61, "Jessey": 50, "Wies": 48 }
+      {
+        "week": "W1",
+        "Valentina": 65,
+        "Bassel": 55,
+        "Jessey": 44,
+        "Wies": 42
+      },
+      {
+        "week": "W2",
+        "Valentina": 70,
+        "Bassel": 58,
+        "Jessey": 48,
+        "Wies": 45
+      },
+      {
+        "week": "W3",
+        "Valentina": 68,
+        "Bassel": 60,
+        "Jessey": 47,
+        "Wies": 46
+      },
+      {
+        "week": "W4",
+        "Valentina": 72,
+        "Bassel": 61,
+        "Jessey": 50,
+        "Wies": 48
+      }
     ],
     "deal_activity_breakdown": [
-      { "name": "Valentina", "calls": 9, "emails": 72, "tasks": 21 },
-      { "name": "Bassel",    "calls": 7, "emails": 61, "tasks": 17 },
-      { "name": "Jessey",    "calls": 6, "emails": 50, "tasks": 14 },
-      { "name": "Wies",      "calls": 8, "emails": 48, "tasks": 16 }
-    ],
-    "customers_to_follow_up": [
-      { "customer": "Van der Berg - Amsterdam Noord",  "owner": "Bassel",    "due_days": -2, "reason": "Installation follow-up" },
-      { "customer": "Pietersen - Utrecht",             "owner": "Valentina", "due_days": 0,  "reason": "Quote sent, no reply" },
-      { "customer": "Jansen - Rotterdam",              "owner": "Jessey",    "due_days": 1,  "reason": "Post-install check-in" },
-      { "customer": "De Vries - Den Haag",             "owner": "Wies",      "due_days": 1,  "reason": "Awaiting contract sign" },
-      { "customer": "Bakker - Eindhoven",              "owner": "Bassel",    "due_days": 2,  "reason": "Technical question open" },
-      { "customer": "Visser - Groningen",              "owner": "Valentina", "due_days": 3,  "reason": "Satisfaction survey" },
-      { "customer": "Smit - Breda",                   "owner": "Jessey",    "due_days": 3,  "reason": "Upsell opportunity" },
-      { "customer": "Meijer - Nijmegen",               "owner": "Bassel",    "due_days": 4,  "reason": "Warranty query open" },
-      { "customer": "Bos - Tilburg",                  "owner": "Wies",      "due_days": 5,  "reason": "Quote renewal" },
-      { "customer": "Mulder - Haarlem",               "owner": "Valentina", "due_days": 6,  "reason": "Installation scheduled" },
-      { "customer": "De Groot - Leiden",              "owner": "Jessey",    "due_days": 7,  "reason": "Post-install check-in" }
-    ],
-    "stale_deals": [
-      { "deal": "Quatt Install - Westbank",    "owner": "Bassel",    "last_contact_days": 14 },
-      { "deal": "Quatt Install - Noord",       "owner": "Valentina", "last_contact_days": 11 },
-      { "deal": "Quatt Install - Centrum",     "owner": "Jessey",    "last_contact_days": 9  },
-      { "deal": "Quatt Install - Zuid",        "owner": "Bassel",    "last_contact_days": 8  },
-      { "deal": "Quatt Install - Oost",        "owner": "Wies",      "last_contact_days": 7  },
-      { "deal": "Quatt Install - Nieuw-West",  "owner": "Valentina", "last_contact_days": 7  }
-    ]
-  },
-  "calendar": {
-    "overview": {
-      "total_meetings": 61,
-      "total_meeting_hours": 50.0,
-      "avg_meetings_per_person": 15.3,
-      "async_ratio_pct": 69
-    },
-    "by_agent": [
       {
         "name": "Valentina",
-        "meetings": 18,
-        "meeting_hours": 15.0,
-        "external_meetings": 11,
-        "internal_meetings": 7,
-        "avg_meeting_duration_min": 50,
-        "back_to_back_pct": 22
+        "calls": 9,
+        "emails": 72,
+        "tasks": 21
       },
       {
         "name": "Bassel",
-        "meetings": 16,
-        "meeting_hours": 13.0,
-        "external_meetings": 9,
-        "internal_meetings": 7,
-        "avg_meeting_duration_min": 49,
-        "back_to_back_pct": 19
+        "calls": 7,
+        "emails": 61,
+        "tasks": 17
       },
       {
         "name": "Jessey",
-        "meetings": 13,
-        "meeting_hours": 10.5,
-        "external_meetings": 8,
-        "internal_meetings": 5,
-        "avg_meeting_duration_min": 48,
-        "back_to_back_pct": 15
+        "calls": 6,
+        "emails": 50,
+        "tasks": 14
       },
       {
         "name": "Wies",
-        "meetings": 14,
-        "meeting_hours": 11.5,
-        "external_meetings": 9,
-        "internal_meetings": 5,
-        "avg_meeting_duration_min": 49,
-        "back_to_back_pct": 14
+        "calls": 8,
+        "emails": 48,
+        "tasks": 16
       }
     ],
-    "meeting_type_distribution": [
-      { "type": "Customer check-in",   "count": 24 },
-      { "type": "Internal sync",       "count": 18 },
-      { "type": "Installation review", "count": 12 },
-      { "type": "Training",            "count": 7  }
+    "customers_to_follow_up": [
+      {
+        "customer": "Van der Berg - Amsterdam Noord",
+        "owner": "Bassel",
+        "due_days": -2,
+        "reason": "Installation follow-up"
+      },
+      {
+        "customer": "Pietersen - Utrecht",
+        "owner": "Valentina",
+        "due_days": 0,
+        "reason": "Quote sent, no reply"
+      },
+      {
+        "customer": "Jansen - Rotterdam",
+        "owner": "Jessey",
+        "due_days": 1,
+        "reason": "Post-install check-in"
+      },
+      {
+        "customer": "De Vries - Den Haag",
+        "owner": "Wies",
+        "due_days": 1,
+        "reason": "Awaiting contract sign"
+      },
+      {
+        "customer": "Bakker - Eindhoven",
+        "owner": "Bassel",
+        "due_days": 2,
+        "reason": "Technical question open"
+      },
+      {
+        "customer": "Visser - Groningen",
+        "owner": "Valentina",
+        "due_days": 3,
+        "reason": "Satisfaction survey"
+      },
+      {
+        "customer": "Smit - Breda",
+        "owner": "Jessey",
+        "due_days": 3,
+        "reason": "Upsell opportunity"
+      },
+      {
+        "customer": "Meijer - Nijmegen",
+        "owner": "Bassel",
+        "due_days": 4,
+        "reason": "Warranty query open"
+      },
+      {
+        "customer": "Bos - Tilburg",
+        "owner": "Wies",
+        "due_days": 5,
+        "reason": "Quote renewal"
+      },
+      {
+        "customer": "Mulder - Haarlem",
+        "owner": "Valentina",
+        "due_days": 6,
+        "reason": "Installation scheduled"
+      },
+      {
+        "customer": "De Groot - Leiden",
+        "owner": "Jessey",
+        "due_days": 7,
+        "reason": "Post-install check-in"
+      }
     ],
-    "daily_meeting_hours": [
-      { "day": "Mon", "Valentina": 3.5, "Bassel": 2.5, "Jessey": 2.0, "Wies": 2.5 },
-      { "day": "Tue", "Valentina": 2.5, "Bassel": 3.0, "Jessey": 2.5, "Wies": 2.0 },
-      { "day": "Wed", "Valentina": 4.0, "Bassel": 2.0, "Jessey": 2.0, "Wies": 3.0 },
-      { "day": "Thu", "Valentina": 3.0, "Bassel": 3.5, "Jessey": 2.5, "Wies": 2.5 },
-      { "day": "Fri", "Valentina": 2.0, "Bassel": 2.0, "Jessey": 1.5, "Wies": 1.5 }
-    ],
-    "load_trend": [
-      { "week": "W1", "Valentina": 14.0, "Bassel": 11.5, "Jessey": 9.5,  "Wies": 10.0 },
-      { "week": "W2", "Valentina": 16.5, "Bassel": 12.0, "Jessey": 10.0, "Wies": 11.5 },
-      { "week": "W3", "Valentina": 13.5, "Bassel": 14.0, "Jessey": 11.5, "Wies": 12.0 },
-      { "week": "W4", "Valentina": 15.0, "Bassel": 13.0, "Jessey": 10.5, "Wies": 11.5 }
-    ]
-  },
-  "standup": {
-    "last_meeting": "2026-04-21T09:00:00Z",
-    "meeting_title": "ISM Weekly Stand-up — W16",
-    "action_items": [
-      { "id": 1,  "item": "Send updated quote to Van der Berg",          "owner": "Bassel",    "status": "open",        "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
-      { "id": 2,  "item": "Schedule post-install check-in with Jansen",  "owner": "Jessey",    "status": "open",        "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
-      { "id": 3,  "item": "Follow up on Pietersen quote (no reply 3d)",  "owner": "Valentina", "status": "in_progress", "created": "2026-04-21", "due": "2026-04-22", "week": "W16" },
-      { "id": 4,  "item": "Close warranty query for Meijer",             "owner": "Bassel",    "status": "open",        "created": "2026-04-21", "due": "2026-04-23", "week": "W16" },
-      { "id": 5,  "item": "Confirm De Vries contract signature",         "owner": "Wies",      "status": "open",        "created": "2026-04-21", "due": "2026-04-23", "week": "W16" },
-      { "id": 6,  "item": "Send satisfaction survey to Visser",          "owner": "Valentina", "status": "in_progress", "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
-      { "id": 7,  "item": "Prepare Smit upsell proposal",               "owner": "Jessey",    "status": "open",        "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
-      { "id": 8,  "item": "Renew quote for Bos (expires Friday)",        "owner": "Wies",      "status": "open",        "created": "2026-04-21", "due": "2026-04-24", "week": "W16" },
-      { "id": 9,  "item": "Check Mulder installation scheduled date",    "owner": "Valentina", "status": "done",        "created": "2026-04-14", "due": "2026-04-18", "week": "W15" },
-      { "id": 10, "item": "Update CRM notes for Centrum deal",           "owner": "Jessey",    "status": "done",        "created": "2026-04-14", "due": "2026-04-18", "week": "W15" },
-      { "id": 11, "item": "Escalate Westbank stale deal to manager",     "owner": "Bassel",    "status": "in_progress", "created": "2026-04-14", "due": "2026-04-21", "week": "W15" },
-      { "id": 12, "item": "Review Noord installation report",            "owner": "Valentina", "status": "open",        "created": "2026-04-14", "due": "2026-04-21", "week": "W15" },
-      { "id": 13, "item": "Coordinate with logistics on Oost scheduling","owner": "Wies",      "status": "done",        "created": "2026-04-14", "due": "2026-04-17", "week": "W15" }
+    "stale_deals": [
+      {
+        "deal": "Quatt Install - Westbank",
+        "owner": "Bassel",
+        "last_contact_days": 14
+      },
+      {
+        "deal": "Quatt Install - Noord",
+        "owner": "Valentina",
+        "last_contact_days": 11
+      },
+      {
+        "deal": "Quatt Install - Centrum",
+        "owner": "Jessey",
+        "last_contact_days": 9
+      },
+      {
+        "deal": "Quatt Install - Zuid",
+        "owner": "Bassel",
+        "last_contact_days": 8
+      },
+      {
+        "deal": "Quatt Install - Oost",
+        "owner": "Wies",
+        "last_contact_days": 7
+      },
+      {
+        "deal": "Quatt Install - Nieuw-West",
+        "owner": "Valentina",
+        "last_contact_days": 7
+      }
     ]
   }
 }

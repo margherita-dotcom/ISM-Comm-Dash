@@ -35,8 +35,6 @@ jobs:
           SLACK_BOT_TOKEN:            ${{ secrets.SLACK_BOT_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_DOMAIN:              ${{ secrets.GOOGLE_DOMAIN }}
-          STANDUP_DOC_FOLDER_ID:      ${{ secrets.STANDUP_DOC_FOLDER_ID }}
-          STANDUP_DOC_TITLE_PATTERN:  ${{ secrets.STANDUP_DOC_TITLE_PATTERN }}
           SNOWFLAKE_ACCOUNT:          ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER:             ${{ secrets.SNOWFLAKE_USER }}
           SNOWFLAKE_PASSWORD:         ${{ secrets.SNOWFLAKE_PASSWORD }}
